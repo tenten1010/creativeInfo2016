@@ -49,7 +49,6 @@ def minusRoma(num):
 	result += decDict[figure]
 	return result
 
-
 def decToRoma(dec):
 	nvDec = dec
 	fourNine = []
@@ -66,8 +65,6 @@ def decToRoma(dec):
 		else:
 			result += minusRoma(index[0])
 	print(result)
-
-
 
 if __name__ == '__main__':
 	romaDict = {"I":1,"V":5,"X":10,"L":50,"C":100,"D":500,"M":1000}

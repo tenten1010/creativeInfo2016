@@ -1,4 +1,3 @@
-quan = input("input a quanternary number:")
 def fourToDec(quan):
 	dec = 0
 	for i in range(len(quan)):
@@ -7,4 +6,5 @@ def fourToDec(quan):
 	print("result is %d"%dec)
 
 if __name__=="__main__":
+	quan = input("input a quanternary number:")
 	fourToDec(quan)
